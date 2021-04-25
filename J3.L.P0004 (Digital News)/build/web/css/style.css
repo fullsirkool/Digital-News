@@ -1,0 +1,99 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 23, 2021, 5:47:15 PM
+    Author     : Minh La Anhihi
+*/
+
+body{
+    font-family:sans-serif;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+.container{
+    background-image: url(../images/bg.jpg) ;
+    background-repeat: repeat-y;
+    width: 886px;
+    height: auto;
+    margin: 0 auto;    
+}
+
+.content{
+    width: 760px;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+}
+.left{
+    width: 70%;
+    padding: 20px;
+    border-right: dotted 2px;
+    border-color: #e0e0e0;
+}
+
+.right{
+    width: 30%;
+    height: auto;
+    padding: 10px;
+}
+
+.left a{
+    text-decoration: none;
+    color: black;
+}
+
+.news-content{
+    padding-bottom: 40px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.signature{
+    float:right;
+    color: #42554e;
+    font-size: 10px;
+    margin-top: 5px;
+}
+
+.image img{
+    width: 400px;
+    height: auto;
+    padding-bottom: 20px;
+}
+
+.icon1{
+    height: 10px;
+    width: 10px;
+    display: inline-block;
+    background-image: url(../images/comment.gif);
+    background-repeat: no-repeat;
+}
+
+.icon2{
+    height: 10px;
+    width: 10px;
+    display: inline-block;
+    background-image: url(../images/timeicon.gif);
+    background-repeat: no-repeat;
+}
+
+.tittle{
+    font-size: 18px;
+    color: #42554e;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.text{
+    font-size: 13px;
+}
+
+.warning{
+    font-size: 18px;
+    color: red;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
